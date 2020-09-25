@@ -1,6 +1,8 @@
 name: dispatch-workflow
 on:
     repository_dispatch:
+    pull_request:
+        branches: [ main ]
 jobs:
   long-sleep-job:
     runs-on: ubuntu-latest
