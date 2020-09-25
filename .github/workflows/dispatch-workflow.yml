@@ -1,5 +1,6 @@
 name: dispatch-workflow
-
+on:
+    repository_dispatch:
 jobs:
   long-sleep-job:
     runs-on: ubuntu-latest
