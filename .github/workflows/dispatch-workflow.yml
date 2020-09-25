@@ -10,5 +10,5 @@ jobs:
       matrix:
         node-version: [14.x]
     steps:
-      - name: Long Wait Step
+      - name: Long Wait Step (1000 ms)
         run: sleep 1000
