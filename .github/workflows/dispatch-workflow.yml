@@ -1,0 +1,11 @@
+name: dispatch-workflow
+
+jobs:
+  long-sleep-job:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - name: Long Wait Step
+        run: sleep 1000
