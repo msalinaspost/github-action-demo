@@ -11,4 +11,4 @@ jobs:
         node-version: [14.x]
     steps:
       - name: Long Wait Step (1000 ms)
-        run: sleep 1000
+        run: sleep 10
